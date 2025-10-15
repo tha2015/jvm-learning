@@ -4,9 +4,9 @@ This plan guides you through mastering the JVM, with progress checkboxes to trac
 
 ---
 
-## Phase 1: Fundamentals (Weeks 1-4)
+## Phase 1: Fundamentals (Weeks 1-5)
 
-### Week 1-2: JVM Architecture & Bytecode
+### Week 1-3: JVM Architecture & Bytecode
 - [ ] Study JVM structure, class loading, and bytecode basics
 - [ ] Read *Java Performance* by Scott Oaks, Chapters 1-2
 - [ ] Review [JVM Specification SE 21](https://docs.oracle.com/javase/specs/jvms/se21/html/), Chapters 2-5
@@ -14,8 +14,9 @@ This plan guides you through mastering the JVM, with progress checkboxes to trac
 - [ ] Build a custom ClassLoader for encrypted classes
 - [ ] Explore OpenJDK source: `src/hotspot/share/classfile/`
 - [ ] Debug class loading with `jdb` and breakpoints
+- [ ] Study JVM startup process and bootstrap class loading
 
-### Week 3-4: Memory & Garbage Collection
+### Week 4-5: Memory & Garbage Collection
 - [ ] Learn heap layout and GC algorithms (G1, ZGC, Shenandoah)
 - [ ] Read *Java Performance* Chapters 5-6
 - [ ] Complete [Java Memory Management](https://www.udemy.com/course/java-application-performance-and-memory-management/) by Matt Greencroft
@@ -24,34 +25,37 @@ This plan guides you through mastering the JVM, with progress checkboxes to trac
 
 ---
 
-## Phase 2: Performance & Execution (Weeks 5-8)
+## Phase 2: Performance & Execution (Weeks 6-9)
 
-### Week 5-6: JIT Compilation & Benchmarking
+### Week 6-7: JIT Compilation & Benchmarking
 - [ ] Study C1/C2 compilers and optimization techniques
 - [ ] Read *Optimizing Java* Chapters 3-4
 - [ ] Use JMH and JITWatch to create and analyze benchmarks
 - [ ] Analyze JIT compilation logs with JVM flags like `-XX:+PrintCompilation`
 
-### Week 7-8: Advanced Profiling & Native Memory
+### Week 8-9: Advanced Profiling & Native Memory
 - [ ] Learn off-heap memory and native memory tracking
 - [ ] Practice profiling with async-profiler and Java Flight Recorder (JFR)
 - [ ] Profile a real application and optimize hotspot methods
 
 ---
 
-## Phase 3: Modern JVM Features (Weeks 9-12)
+## Phase 3: Modern JVM Features (Weeks 10-14)
 
-### Week 9-10: Virtual Threads & Structured Concurrency
+### Week 10-12: Virtual Threads & Structured Concurrency
 - [ ] Study Project Loom: virtual threads and structured concurrency APIs
 - [ ] Read JEP 444 and JEP 453 specifications
 - [ ] Take Rock the JVM advanced Java modules
+- [ ] Build hands-on projects with virtual threads (web server, data processing)
 - [ ] Migrate thread-pool based app to virtual threads and measure performance
+- [ ] Study carrier thread pool behavior and pinning scenarios
 
-### Week 11-12: Production JVM & Container Tuning
+### Week 13-14: Production JVM & Container Tuning
 - [ ] Learn container-aware JVM tuning and monitoring
 - [ ] Use JMC, Arthas, Prometheus, Grafana for observability
 - [ ] Setup JFR to Prometheus to Grafana monitoring pipeline
 - [ ] Apply container JVM flags and tune for production
+- [ ] Hands-on container deployment and resource optimization
 
 ---
 
