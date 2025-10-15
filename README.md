@@ -110,8 +110,8 @@ This plan guides you through mastering the JVM, with progress checkboxes to trac
 - [📖 Week 10-12: Virtual Threads & Structured Concurrency](week10-12.md)
 - [📖 Week 13-14: Production JVM & Container Tuning](week13-14.md)
 - [📖 Week 15-16: GraalVM Native Image & AOT](week15-16.md)
-- [📖 Week 17-18: Capstone Projects](week17-18.md) *(Coming Soon)*
-- [📖 Week 19: Buffer & Review](week19.md) *(Coming Soon)*  
+- [📖 Week 17-18: Capstone Projects](week17-18.md)
+- [📖 Week 19: Buffer & Review](week19.md)  
 
 ---
 
