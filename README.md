@@ -59,18 +59,23 @@ This plan guides you through mastering the JVM, with progress checkboxes to trac
 
 ---
 
-## Phase 4: Mastery & Capstone (Weeks 13-16)
+## Phase 4: Mastery & Capstone (Weeks 15-19)
 
-### Week 13-14: GraalVM Native Image & AOT
+### Week 15-16: GraalVM Native Image & AOT
 - [ ] Learn GraalVM native image creation and limitations
 - [ ] Review GraalVM documentation on native image metadata
 - [ ] Build a native image for a Spring Boot app with <100ms startup
 
-### Week 15-16: Capstone Project (choose one)
-- [ ] Optimize an open-source Java app end-to-end using JVM profiling and tuning
-- [ ] Build a custom JVM monitoring platform with alerting
-- [ ] Migrate an existing app to virtual threads and benchmark improvements
-- [ ] Deploy a production-ready GraalVM native image application
+### Week 17-18: Capstone Project (choose one)
+- [ ] Optimize an open-source Java app end-to-end using JVM profiling and tuning (target: 30% latency reduction)
+- [ ] Build a custom JVM monitoring platform with alerting (define SLA targets)
+- [ ] Migrate an existing app to virtual threads and benchmark improvements (measure throughput & resource usage)
+- [ ] Deploy a production-ready GraalVM native image application (target: <100ms startup, optimized memory footprint)
+
+### Week 19: Buffer & Review
+- [ ] Complete any unfinished items from previous phases
+- [ ] Review and consolidate learnings
+- [ ] Plan continued learning and specialization areas
 
 ---
 
@@ -84,10 +89,29 @@ This plan guides you through mastering the JVM, with progress checkboxes to trac
 ---
 
 ## Study Schedule
-- 12-15 hours per week  
-- Weekdays: 1.5-2 hours each  
-- Weekends: 3-4 hours each  
-- Suggested allocation: 40% reading/videos, 35% hands-on, 25% projects  
+- **Total Duration**: 19 weeks (includes 1 buffer week)
+- **Time Commitment**: 12-15 hours per week
+- **Daily Schedule**:
+  - Weekdays: 1.5-2 hours each
+  - Weekends: 3-4 hours each
+- **Time Allocation**: 40% reading/videos, 35% hands-on, 25% projects
+
+### Weekly Schedule Overview
+- **Phase 1 (Weeks 1-5)**: Fundamentals - JVM Architecture, Bytecode, Memory & GC
+- **Phase 2 (Weeks 6-9)**: Performance - JIT Compilation, Profiling, Native Memory
+- **Phase 3 (Weeks 10-14)**: Modern Features - Virtual Threads, Production Tuning
+- **Phase 4 (Weeks 15-19)**: Mastery - GraalVM Native Images, Capstone Project, Buffer
+
+### Detailed Weekly Plans
+- [📖 Week 1-3: JVM Architecture & Bytecode](week1-3.md)
+- [📖 Week 4-5: Memory Management & Garbage Collection](week4-5.md)
+- [📖 Week 6-7: JIT Compilation & Benchmarking](week6-7.md)
+- [📖 Week 8-9: Advanced Profiling & Native Memory](week8-9.md)
+- [📖 Week 10-12: Virtual Threads & Structured Concurrency](week10-12.md)
+- [📖 Week 13-14: Production JVM & Container Tuning](week13-14.md)
+- [📖 Week 15-16: GraalVM Native Image & AOT](week15-16.md)
+- [📖 Week 17-18: Capstone Projects](week17-18.md) *(Coming Soon)*
+- [📖 Week 19: Buffer & Review](week19.md) *(Coming Soon)*  
 
 ---
 
@@ -100,5 +124,15 @@ This plan guides you through mastering the JVM, with progress checkboxes to trac
 
 ---
 
-*Progress through this checklist to build deep mastery of JVM internals, performance, and the latest JVM features in 2025.*
+## Progress Tracking
+Each weekly plan includes:
+- ✅ **Learning Objectives** with measurable outcomes
+- 📚 **Study Materials** with time estimates and direct links
+- 🛠️ **Hands-on Activities** with practical exercises
+- 🚀 **Projects** with concrete deliverables and success criteria
+- 📊 **Weekly Checkpoints** to validate progress
+
+---
+
+*Progress through this 19-week journey to build deep mastery of JVM internals, performance optimization, and cutting-edge JVM features in 2025.*
 
