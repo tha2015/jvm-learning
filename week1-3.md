@@ -30,7 +30,8 @@ By the end of these 3 weeks, you will:
 
 **Online Resources:**
 - [Oracle JVM Internals Guide](https://docs.oracle.com/javase/8/docs/technotes/guides/vm/) (1 hour)
-- [Baeldung: Understanding JVM Internals](https://www.baeldung.com/jvm-internals) (30 min)
+- [Baeldung: JVM Architecture](https://www.baeldung.com/jvm-vs-jre-vs-jdk) (30 min)
+- [JVM Internals Overview](https://blog.jamesdbloom.com/JVMInternals.html) (45 min)
 
 ### Hands-on Activities
 1. **JVM Structure Exploration** (2 hours)
